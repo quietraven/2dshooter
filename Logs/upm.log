@@ -178,3 +178,49 @@ params: {}
 [2026-11-07T14:35:39.414Z][INFO] config:project:get-registries <-- Request received
 params: {}
 [2026-11-07T14:35:39.419Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-11-07T17:52:51.857Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-07T17:52:52.045Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-07T17:52:52.103Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-07T17:52:52.106Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-07T17:52:52.199Z][ERROR] Unexpected error fetching registry list config: Cannot connect to 'cdn.packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+{
+  stack: "Error: Cannot connect to 'cdn.packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.\n" +
+    '    at convertHttpRequestErrorToUpmError (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:155:7607)\n' +
+    '    at runAxiosRequest (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:155:10548)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n' +
+    '    at async Object.getJsonAndEtag (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:107)\n' +
+    '    at async Object.fetchNonCompliantRegistries (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:3824)\n' +
+    '    at async /home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:4975'
+}
+[2026-11-07T17:52:52.231Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-07T17:52:52.234Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-07T17:52:52.243Z][INFO] project:list-packages --> 200 (400 ms)
+[2026-11-07T17:52:52.412Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-07T17:52:52.591Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-07T17:52:52.627Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-07T17:52:52.629Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-07T17:52:56.763Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-07T17:52:57.311Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-07T17:53:01.814Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-07T17:53:02.369Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-07T17:53:03.806Z][ERROR] Unexpected error fetching registry list config: Cannot connect to 'cdn.packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+{
+  stack: "Error: Cannot connect to 'cdn.packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.\n" +
+    '    at convertHttpRequestErrorToUpmError (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:155:7607)\n' +
+    '    at runAxiosRequest (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:155:10548)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n' +
+    '    at async Object.getJsonAndEtag (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:107)\n' +
+    '    at async Object.fetchNonCompliantRegistries (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:3824)\n' +
+    '    at async /home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:4975'
+}
+[2026-11-07T17:53:03.952Z][INFO] project:list-packages --> 200 (11540 ms)
+[2026-11-07T17:53:03.954Z][INFO] project:list-packages --> 200 (2140 ms)
+[2026-11-07T17:53:03.957Z][INFO] project:list-packages --> 200 (7194 ms)
+[2026-11-07T17:53:03.959Z][INFO] project:list-packages --> 200 (6648 ms)
+[2026-11-07T17:53:03.962Z][INFO] project:list-packages --> 200 (1593 ms)
