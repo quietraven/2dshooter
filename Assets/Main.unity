@@ -195,6 +195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08b32504dc38a7641a78c2eee5f54aef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  boltPrefab: {fileID: 1287502262990996, guid: 4dd15c7fe51711c48ba135fef149bbf8, type: 3}
+  gunPosition: {fileID: 1438924084}
+  speed: 5
 --- !u!114 &815224107
 MonoBehaviour:
   m_ObjectHideFlags: 0
